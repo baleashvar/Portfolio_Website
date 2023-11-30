@@ -1,6 +1,24 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'Satisfy';
+  font-display: swap;
+  src: url('../vendor/bootstrap-icons/fonts/bootstrap-icons.woff') format('woff'),
+       url('../vendor/bootstrap-icons/fonts/bootstrap-icons.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-display: swap;
+  src: url('../vendor/bootstrap-icons/fonts/bootstrap-icons.woff') format('woff'),
+       url('../vendor/bootstrap-icons/fonts/bootstrap-icons.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-display: swap;
+  src: url('../vendor/bootstrap-icons/fonts/bootstrap-icons.woff') format('woff'),
+       url('../vendor/bootstrap-icons/fonts/bootstrap-icons.woff2') format('woff2');
+}
 
 body {
   font-family: "Open Sans", sans-serif;
