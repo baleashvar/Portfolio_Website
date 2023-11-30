@@ -4,10 +4,16 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Baleashvar</title>
-  <meta content="" name="description">
+  <meta name="description" content="Personal portfolio">
   <meta content="" name="keywords">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self';
+  frame-src 'self' https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAADYk6NURjBWOTU4UlBCOFUzRk45RTFFWUtIRkU0TS4u&embed=true;
+  font-src 'self' https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy;
+  img-src 'self' data:;">
+
+
+
+  <title>Baleashvar</title>  
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -21,6 +27,9 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link rel="preload" href="assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff" as="font" type="font/woff2" crossorigin="anonymous" media="all">
+  <link rel="preload" href="assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2" as="font" type="font/woff2" crossorigin="anonymous" media="all">
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -63,11 +72,7 @@
   </style>
 
   <!-- Add defer attribute to non-essential scripts -->
-  <script defer src="path/to/non-essential-script.js"></script>
-
   <!-- Add async attribute to external scripts that don't affect rendering -->
-  <script async src="https://example.com/external-script.js"></script>
-
   <!-- Other meta tags or optimizations as needed -->
 
   <!-- Cache Control: Set max-age for caching (adjust the value as needed) -->
@@ -304,7 +309,7 @@
       <!-- Image 1 -->
       <div class="col-lg-4">
         <div class="know-me-item text-center">
-          <img src="assets/img/me/me1.webp" width="400" height="300" loading="lazy">
+          <img src="assets/img/me/me1.webp" alt="me1" width="400" height="300" loading="lazy">
           <p><b>Hosting TT and FF:<br><br></b>As lead organizer of ThinkInfinity's popular programs "Thoughtful Thursdays" and "Fun Fridays", I was transforming some experimental events into company's most loved weekly happenings!</p>
         </div>
       </div>
@@ -312,7 +317,7 @@
       <!-- Image 2 -->
       <div class="col-lg-4">
         <div class="know-me-item text-center">
-          <img src="assets/img/me/me2.webp" width="400" height="200" loading="lazy">
+          <img src="assets/img/me/me2.webp" alt="me2" width="400" height="180" loading="lazy">
           <!--<img src="assets/img/me/me2.webp" alt="Me Image 2" loading="lazy" style="width: 100%; max-height: 400px;"> -->
           <p><b>TT and FF Unveiled:<br><br></b>Thoughtful Thursdays (TT) at ThinkInfinity became a platform where an employees could showcase their presentation skills and teach valuable technical or non technical lessons to others. As the host, I invited individuals to share their unique narratives. Fun Fridays (FF) brought a burst of joy to cap off the week, It involved exciting games like treasure hunt and balloon bursting games.</p>
         </div>
@@ -321,7 +326,7 @@
       <!-- Image 3 below Image 2 -->
       <div class="col-lg-4">
         <div class="know-me-item text-center">
-          <img src="assets/img/me/me3.webp" width="400" height="200" loading="lazy">
+          <img src="assets/img/me/me3.webp" alt="me3" width="400" height="180" loading="lazy">
           <!--<img src="assets/img/me/me3.webp" alt="Me Image 3" loading="lazy" style="width: 100%; max-height: 400px;"> -->
           <p><b>Curator of Insights and Joy:<br><br></b>In my role as the host of Thoughtful Thursdays and Fun Fridays at ThinkInfinity, Through meticulous research, creative planning, and charismatic on-stage presence, I curated one-of-a-kind experiences for colleagues,bringing more lightness and collaboration across departments. I look forward to channeling these capacities along with my passion for bringing people together into future community building roles.</p>
         </div>
@@ -386,7 +391,7 @@
           </div>
     
           <div class="col-lg-6">
-            <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAADYk6NURjBWOTU4UlBCOFUzRk45RTFFWUtIRkU0TS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>    
+            <iframe  title="Form Feedback" width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAADYk6NURjBWOTU4UlBCOFUzRk45RTFFWUtIRkU0TS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>    
       </div>
     </section><!-- End Contact Me Section -->
     
@@ -414,15 +419,15 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script async src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script async src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script async src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script async src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script async src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script async src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script async src="assets/js/main.js"></script>
 
 </body>
 
