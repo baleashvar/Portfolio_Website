@@ -1,0 +1,272 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 116.8rem;
+}.component-3-5My {
+  box-sizing: border-box;
+  padding: 2rem 2rem 2rem 2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: dashed 0.1rem #9747ff;
+  border-radius: 0.5rem;
+}
+.component-3-5My .property-1default-1Fd {
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 33.6966rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.component-3-5My .property-1default-1Fd .rectangle-128-9cj {
+  width: 54.9878rem;
+  height: 32.7432rem;
+  position: absolute;
+  left: 0.1618rem;
+  top: 0.3631rem;
+  background-color: #fece00;
+}
+.component-3-5My .property-1default-1Fd .group-903-HU3 {
+  width: 112.8575rem;
+  height: 33.6966rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+.component-3-5My .property-1default-1Fd .group-903-HU3 .mask-group-RaF {
+  margin-right: 7.2105rem;
+  width: 55.447rem;
+  height: 33.6966rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.component-3-5My .property-1default-1Fd .group-903-HU3 .auto-group-is1f-xKH {
+  margin: 4.647rem 0rem 2.968rem 0rem;
+  width: 50.2rem;
+  height: calc(100% - 7.6151rem);
+  flex-shrink: 0;
+}
+.component-3-5My .property-1default-1Fd .group-903-HU3 .auto-group-is1f-xKH .play-Gqm {
+  margin: 0rem 0rem 0.593rem 0.018rem;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.0559999466;
+  color: #000000;
+  font-family: Monument Extended, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.component-3-5My .property-1default-1Fd .group-903-HU3 .auto-group-is1f-xKH .auto-group-por7-zFy {
+  margin: 0rem 0.058rem 2.308rem 0.018rem;
+  width: calc(100% - 0.0751rem);
+  display: flex;
+  align-items: center;
+}
+.component-3-5My .property-1default-1Fd .group-903-HU3 .auto-group-is1f-xKH .auto-group-por7-zFy .user-interface-v9d {
+  margin: 0.2rem 32.025rem 0rem 0rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.0559999943;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.component-3-5My .property-1default-1Fd .group-903-HU3 .auto-group-is1f-xKH .auto-group-por7-zFy .mobile-application-2yM {
+  margin-bottom: 0.2rem;
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.0559999943;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.component-3-5My .property-1default-1Fd .group-903-HU3 .auto-group-is1f-xKH .lorem-ipsum-dolor-sit-amet-consectetuer-adipiscing-elit-sed-diam-nonummy-nibh-euismod-tincidunt-ut-laoreet-dolore-magna-aliquam-erat-volutpat-ut-wisi-enim-ad-minim-veniam-quis-nostrud-exerci-tation-ullamc-keT {
+  margin-bottom: 4.7807rem;
+  max-width: 50.2rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.0559999678;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+}
+.component-3-5My .property-1default-1Fd .group-903-HU3 .auto-group-is1f-xKH .component-1-cAs {
+  margin-left: 37.509rem;
+  width: 12.6335rem;
+  height: 4.8997rem;
+  cursor: pointer;
+  position: relative;
+}
+.component-3-5My .property-1default-1Fd .group-903-HU3 .auto-group-is1f-xKH .component-1-cAs .rectangle-124-YqD {
+  width: 12.3858rem;
+  height: 4.5695rem;
+  position: absolute;
+  left: 0.2477rem;
+  top: 0;
+  background-color: #000000;
+}
+.component-3-5My .property-1default-1Fd .group-903-HU3 .auto-group-is1f-xKH .component-1-cAs .rectangle-123-H27 {
+  width: 12.3858rem;
+  height: 4.5695rem;
+  position: absolute;
+  left: 0;
+  top: 0.3302rem;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-color: #e1e1e1;
+}
+.component-3-5My .property-1default-1Fd .group-903-HU3 .auto-group-is1f-xKH .component-1-cAs .view-Q6j {
+  width: 5.2rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 2.293rem;
+  top: 1.365rem;
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 1.0559999943;
+  color: #000000;
+  font-family: Monument Extended, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.component-3-5My .property-1variant2-u3V {
+  width: 100%;
+  height: 33.6966rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.component-3-5My .property-1variant2-u3V .rectangle-128-rDd {
+  width: 54.9878rem;
+  height: 32.7432rem;
+  position: absolute;
+  left: -0.7382rem;
+  top: -0.6369rem;
+  background-color: #fece00;
+}
+.component-3-5My .property-1variant2-u3V .group-903-afR {
+  width: 112.8575rem;
+  height: 33.6966rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+.component-3-5My .property-1variant2-u3V .group-903-afR .mask-group-Ksu {
+  margin-right: 7.2105rem;
+  width: 55.447rem;
+  height: 33.6966rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.component-3-5My .property-1variant2-u3V .group-903-afR .auto-group-vjxy-GHM {
+  margin: 4.647rem 0rem 2.968rem 0rem;
+  width: 50.2rem;
+  height: calc(100% - 7.6151rem);
+  flex-shrink: 0;
+}
+.component-3-5My .property-1variant2-u3V .group-903-afR .auto-group-vjxy-GHM .play-nmV {
+  margin: 0rem 0rem 0.593rem 0.018rem;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.0559999466;
+  color: #000000;
+  font-family: Monument Extended, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.component-3-5My .property-1variant2-u3V .group-903-afR .auto-group-vjxy-GHM .auto-group-gtl5-vMu {
+  margin: 0rem 0.058rem 2.308rem 0.018rem;
+  width: calc(100% - 0.0751rem);
+  display: flex;
+  align-items: center;
+}
+.component-3-5My .property-1variant2-u3V .group-903-afR .auto-group-vjxy-GHM .auto-group-gtl5-vMu .user-interface-rWT {
+  margin: 0.2rem 32.025rem 0rem 0rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.0559999943;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.component-3-5My .property-1variant2-u3V .group-903-afR .auto-group-vjxy-GHM .auto-group-gtl5-vMu .mobile-application-NUo {
+  margin-bottom: 0.2rem;
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.0559999943;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.component-3-5My .property-1variant2-u3V .group-903-afR .auto-group-vjxy-GHM .lorem-ipsum-dolor-sit-amet-consectetuer-adipiscing-elit-sed-diam-nonummy-nibh-euismod-tincidunt-ut-laoreet-dolore-magna-aliquam-erat-volutpat-ut-wisi-enim-ad-minim-veniam-quis-nostrud-exerci-tation-ullamc-JNT {
+  margin-bottom: 4.7807rem;
+  max-width: 50.2rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.0559999678;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+}
+.component-3-5My .property-1variant2-u3V .group-903-afR .auto-group-vjxy-GHM .component-1-xT1 {
+  margin-left: 37.509rem;
+  width: 12.6335rem;
+  height: 4.8997rem;
+  cursor: pointer;
+  position: relative;
+}
+.component-3-5My .property-1variant2-u3V .group-903-afR .auto-group-vjxy-GHM .component-1-xT1 .rectangle-124-VC3 {
+  width: 12.3858rem;
+  height: 4.5695rem;
+  position: absolute;
+  left: 0.2477rem;
+  top: 0;
+  background-color: #000000;
+}
+.component-3-5My .property-1variant2-u3V .group-903-afR .auto-group-vjxy-GHM .component-1-xT1 .rectangle-123-E9d {
+  width: 12.3858rem;
+  height: 4.5695rem;
+  position: absolute;
+  left: 0;
+  top: 0.3302rem;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-color: #e1e1e1;
+}
+.component-3-5My .property-1variant2-u3V .group-903-afR .auto-group-vjxy-GHM .component-1-xT1 .view-kdm {
+  width: 5.2rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 2.293rem;
+  top: 1.365rem;
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 1.0559999943;
+  color: #000000;
+  font-family: Monument Extended, 'Source Sans Pro';
+  white-space: nowrap;
+}

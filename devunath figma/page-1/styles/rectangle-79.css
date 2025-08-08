@@ -1,0 +1,22 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 49.6rem;
+}.rectangle-79-YpF {
+  width: 100%;
+  height: 36.5383rem;
+  background-color: #d9d9d9;
+  border-radius: 1.8rem;
+}

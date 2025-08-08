@@ -1,0 +1,60 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 80.737rem;
+}.group-880-7Y3 {
+  width: 100%;
+  height: 79.8215rem;
+  position: relative;
+}
+.group-880-7Y3 .once-Tro {
+  width: 68.5rem;
+  height: 33.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  font-size: 24.2636rem;
+  font-weight: 800;
+  line-height: 1.365;
+  font-family: Manrope, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.group-880-7Y3 .upon-PVZ {
+  width: 69.5rem;
+  height: 33.2rem;
+  position: absolute;
+  left: 1.451rem;
+  top: 23.4888rem;
+  text-align: center;
+  font-size: 24.2636rem;
+  font-weight: 800;
+  line-height: 1.365;
+  font-family: Manrope, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.group-880-7Y3 .a-time-W4P {
+  width: 78.6rem;
+  height: 33.2rem;
+  position: absolute;
+  left: 2.1375rem;
+  top: 46.6215rem;
+  text-align: center;
+  font-size: 24.2636rem;
+  font-weight: 800;
+  line-height: 1.365;
+  font-family: Manrope, 'Source Sans Pro';
+  white-space: nowrap;
+}

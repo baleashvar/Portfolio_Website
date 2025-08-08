@@ -1,0 +1,38 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 13.1rem;
+}.my-past-SYP {
+  white-space: nowrap;
+  display: flex;
+  font-size: 3.2rem;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+  line-height: 1.365;
+  align-items: baseline;
+  width: 100%;
+  height: 4.4rem;
+  font-weight: 800;
+
+  .my-past-SYP-sub-0 {
+  }
+  .my-past-SYP-sub-1 {
+    font-size: 3.2rem;
+    font-weight: 800;
+    line-height: 1.365;
+    color: #fece00;
+    font-family: Manrope, 'Source Sans Pro';
+  }
+}

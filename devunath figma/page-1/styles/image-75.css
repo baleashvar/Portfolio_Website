@@ -1,0 +1,24 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 101.221rem;
+}.image-75-YQf {
+  width: 101.2207rem;
+  height: 55.9584rem;
+  position: relative;
+  background-size: 119.998% 117.167%;
+  background-position: -11.5411rem -3.6386rem;
+  background-image: url('../assets/image-75.png');
+}

@@ -1,0 +1,11 @@
+{
+    "github.copilot.enable": {
+        "*": true,
+        "javascript": true,
+        "python": true
+    },
+    
+    "editor.inlineSuggest.enabled": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "github.copilot.editor.enableAutoCompletions": true
+}

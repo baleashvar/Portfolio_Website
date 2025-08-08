@@ -1,0 +1,230 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 136rem;
+}.component-13-Ydd {
+  box-sizing: border-box;
+  padding: 2rem 2rem 2rem 2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: dashed 0.1rem #9747ff;
+  border-radius: 0.5rem;
+}
+.component-13-Ydd .property-1default-sfu {
+  margin-bottom: 2rem;
+  box-sizing: border-box;
+  padding-right: 0.1774rem;
+  width: 100%;
+  height: 39.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.component-13-Ydd .property-1default-sfu .auto-group-hoy9-oZZ {
+  margin-right: 8.5477rem;
+  width: 64.775rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.component-13-Ydd .property-1default-sfu .auto-group-hoy9-oZZ .rectangle-139-9NX {
+  width: 64.4751rem;
+  height: 38.4607rem;
+  position: absolute;
+  left: 0.0588rem;
+  top: 0.2811rem;
+  background-color: #e53232;
+}
+.component-13-Ydd .property-1default-sfu .auto-group-hoy9-oZZ .mask-group-HDq {
+  width: 64.775rem;
+  height: 39.1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+}
+.component-13-Ydd .property-1default-sfu .auto-group-dkyb-R59 {
+  margin: 6.39rem 0rem 5.242rem 0rem;
+  height: calc(100% - 11.6312rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.component-13-Ydd .property-1default-sfu .auto-group-dkyb-R59 .play-wpB {
+  margin-bottom: 1.4818rem;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.0559999466;
+  color: #000000;
+  font-family: Sora, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.component-13-Ydd .property-1default-sfu .auto-group-dkyb-R59 .ux-and-ui-5Qb {
+  margin: 0rem 0rem 1.582rem 0.021rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.0559999943;
+  color: #000000;
+  font-family: Sora, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.component-13-Ydd .property-1default-sfu .auto-group-dkyb-R59 .play-an-app-to-suggest-movie-tv-show-to-users-depending-on-the-likes-of-theirs-at-that-moment-with-family-or-friends-and-many-more-and-also-to-help-the-user-to-keep-a-track-of-movies-that-they-have-seen-CVD {
+  margin-bottom: 5.6284rem;
+  max-width: 58.5rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.365;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.component-13-Ydd .property-1default-sfu .auto-group-dkyb-R59 .component-12-3Vq {
+  margin-left: 43.8773rem;
+  width: 14.5101rem;
+  height: 5.3766rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.component-13-Ydd .property-1default-sfu .auto-group-dkyb-R59 .component-12-3Vq .rectangle-123-akf {
+  width: 14.4941rem;
+  height: 5.3484rem;
+  position: absolute;
+  left: 0;
+  top: 0.0282rem;
+  background-color: #e53232;
+  border-radius: 2.6742rem;
+}
+.component-13-Ydd .property-1default-sfu .auto-group-dkyb-R59 .component-12-3Vq .view-KTM {
+  width: 5.7rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 4.4129rem;
+  top: 1.4242rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.0559999943;
+  color: #ffffff;
+  font-family: Sora, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.component-13-Ydd .property-1variant2-cST {
+  box-sizing: border-box;
+  padding-right: 0.1774rem;
+  width: 100%;
+  height: 39.1rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.component-13-Ydd .property-1variant2-cST .auto-group-aklu-sNP {
+  margin-right: 8.5477rem;
+  width: 65.7162rem;
+  height: 39.8189rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.component-13-Ydd .property-1variant2-cST .auto-group-aklu-sNP .rectangle-139-DBM {
+  width: 64.4751rem;
+  height: 38.4607rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #e53232;
+}
+.component-13-Ydd .property-1variant2-cST .auto-group-aklu-sNP .mask-group-wt3 {
+  width: 64.775rem;
+  height: 39.1rem;
+  position: absolute;
+  left: 0.9412rem;
+  top: 0.7189rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.component-13-Ydd .property-1variant2-cST .auto-group-56vz-Ud5 {
+  margin: 6.39rem 0rem 5.242rem 0rem;
+  height: calc(100% - 11.6312rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.component-13-Ydd .property-1variant2-cST .auto-group-56vz-Ud5 .play-1N7 {
+  margin-bottom: 1.4818rem;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.0559999466;
+  color: #000000;
+  font-family: Sora, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.component-13-Ydd .property-1variant2-cST .auto-group-56vz-Ud5 .ux-and-ui-x2T {
+  margin: 0rem 0rem 1.582rem 0.021rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.0559999943;
+  color: #000000;
+  font-family: Sora, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.component-13-Ydd .property-1variant2-cST .auto-group-56vz-Ud5 .play-an-app-to-suggest-movie-tv-show-to-users-depending-on-the-likes-of-theirs-at-that-moment-with-family-or-friends-and-many-more-and-also-to-help-the-user-to-keep-a-track-of-movies-that-they-have-seen-gDM {
+  margin-bottom: 5.6284rem;
+  max-width: 58.5rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.365;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.component-13-Ydd .property-1variant2-cST .auto-group-56vz-Ud5 .component-12-jBd {
+  margin-left: 43.8773rem;
+  width: 14.5101rem;
+  height: 5.3766rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.component-13-Ydd .property-1variant2-cST .auto-group-56vz-Ud5 .component-12-jBd .rectangle-123-g6s {
+  width: 14.4941rem;
+  height: 5.3484rem;
+  position: absolute;
+  left: 0;
+  top: 0.0282rem;
+  background-color: #e53232;
+  border-radius: 2.6742rem;
+}
+.component-13-Ydd .property-1variant2-cST .auto-group-56vz-Ud5 .component-12-jBd .view-QHm {
+  width: 5.7rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 4.4129rem;
+  top: 1.4242rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.0559999943;
+  color: #ffffff;
+  font-family: Sora, 'Source Sans Pro';
+  white-space: nowrap;
+}

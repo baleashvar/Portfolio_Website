@@ -1,0 +1,287 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 192rem;
+}.home-G3R {
+  width: 100%;
+  height: 108rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #e1e1e1;
+}
+.home-G3R .ellipse-11-NcF {
+  width: 103.6878rem;
+  height: 103.6878rem;
+  position: absolute;
+  left: 95rem;
+  top: 30.3625rem;
+  background-color: #e53232;
+  border-radius: 51.8439rem;
+}
+.home-G3R .image-80-2-gsq {
+  width: 26.7464rem;
+  height: 35.4431rem;
+  position: absolute;
+  left: 29.9448rem;
+  top: 112.4102rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-G3R .hello-im-devunath-DMy {
+  width: 57.6rem;
+  height: 8.1rem;
+  position: absolute;
+  left: 30.1336rem;
+  top: 34.0513rem;
+  font-size: 6.4rem;
+  font-weight: 800;
+  line-height: 1.3660000563;
+  letter-spacing: -0.256rem;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.home-G3R .hello-im-devunath-DMy .hello-im-devunath-DMy-sub-0 {
+  font-size: 6.4rem;
+  font-weight: 600;
+  line-height: 1.26;
+  letter-spacing: -0.256rem;
+  color: #000000;
+  font-family: Sora, 'Source Sans Pro';
+}
+.home-G3R .hello-im-devunath-DMy .hello-im-devunath-DMy-sub-1 {
+  font-size: 6.4rem;
+  font-weight: 600;
+  line-height: 1.26;
+  letter-spacing: -0.256rem;
+  color: #000000;
+  font-family: Sora, 'Source Sans Pro';
+}
+.home-G3R .hello-im-devunath-DMy .hello-im-devunath-DMy-sub-2 {
+  font-size: 6.4rem;
+  font-weight: 600;
+  line-height: 1.26;
+  letter-spacing: -0.256rem;
+  color: #e53131;
+  font-family: Sora, 'Source Sans Pro';
+}
+.home-G3R .visual-designer-F5h {
+  width: 29rem;
+  height: 5.1rem;
+  position: absolute;
+  left: 30.1336rem;
+  top: 43.0011rem;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: -0.16rem;
+  color: #000000;
+  font-family: Sora, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-G3R .an-open-minded-who-enjoys-team-work-and-always-willing-to-face-new-challenge-and-also-quite-passionate-and-discipline-with-an-urge-to-learn-something-new-or-meet-new-people-wz7 {
+  width: 60.8rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 30rem;
+  top: 55.7526rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.365;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+}
+.home-G3R .rectangle-136-BtT {
+  width: 19.079rem;
+  height: 5.8042rem;
+  position: absolute;
+  left: 30rem;
+  top: 68.725rem;
+  background-color: #e53232;
+  border-radius: 2.9021rem;
+}
+.home-G3R .view-resume-idV {
+  width: 15rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 32.0395rem;
+  top: 70.4771rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.056000016;
+  color: #e1e1e1;
+  font-family: Sora, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-G3R .vector-2-dEf {
+  width: 12.0831rem;
+  height: 0;
+  position: absolute;
+  left: 30rem;
+  top: 51.9735rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.home-G3R .image79-1-m5y {
+  width: 45.55rem;
+  height: 86.4632rem;
+  position: absolute;
+  left: 116.45rem;
+  top: 22.8593rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-G3R .group-906-V1y {
+  width: 34.3016rem;
+  height: 15.9rem;
+  position: absolute;
+  left: 146.8439rem;
+  top: 47.5643rem;
+  border-radius: 5.376rem;
+}
+.home-G3R .group-906-V1y .rectangle-137-1FD {
+  width: 34.3016rem;
+  height: 10.7519rem;
+  position: absolute;
+  left: 0;
+  top: 0.5359rem;
+  border: solid 0.2rem #e53232;
+  box-sizing: border-box;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 5.376rem;
+}
+.home-G3R .group-906-V1y .item--HyR {
+  width: 5.6rem;
+  height: 15.9rem;
+  position: absolute;
+  left: 3.1528rem;
+  top: 0;
+  font-size: 15rem;
+  font-weight: 400;
+  line-height: 1.0559999593;
+  color: #e8e8e8;
+  font-family: Manrope, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-G3R .group-906-V1y .innovative-and-passionate-to-create-meaningful-design-to-user-problem-zsq {
+  width: 23.7rem;
+  height: 5.1rem;
+  position: absolute;
+  left: 5.2828rem;
+  top: 3.5619rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.0559999943;
+  color: #000000;
+  font-family: Sora, 'Source Sans Pro';
+}
+.home-G3R .rectangle-84-gEs {
+  width: 192rem;
+  height: 10.7884rem;
+  position: absolute;
+  left: 0;
+  top: 0.0042rem;
+  background-color: #f5f5f5;
+}
+.home-G3R .subtract-RCT {
+  width: 2.6284rem;
+  height: 3.8819rem;
+  position: absolute;
+  left: 30rem;
+  top: 3.4575rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.home-G3R .rectangle-2-MM1 {
+  width: 4.5rem;
+  height: 0.4rem;
+  position: absolute;
+  left: 107.5rem;
+  top: 7.1rem;
+  background-color: #e53232;
+}
+.home-G3R .contact-tLw {
+  width: 6.4rem;
+  height: 2.2rem;
+  position: absolute;
+  left: 155.6002rem;
+  top: 4.3535rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.365;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-G3R .graphic-QKH {
+  width: 6rem;
+  height: 2.2rem;
+  cursor: pointer;
+  position: absolute;
+  left: 143.3001rem;
+  top: 4.3535rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.365;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-G3R .projects-WdD {
+  width: 6.5rem;
+  height: 2.2rem;
+  cursor: pointer;
+  position: absolute;
+  left: 130.5rem;
+  top: 4.3535rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.365;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-G3R .about-dSw {
+  width: 4.7rem;
+  height: 2.2rem;
+  cursor: pointer;
+  position: absolute;
+  left: 119.4999rem;
+  top: 4.3535rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.365;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-G3R .home-jks {
+  width: 4.5rem;
+  height: 2.2rem;
+  position: absolute;
+  left: 107.5158rem;
+  top: 4.3535rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.365;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+  white-space: nowrap;
+}

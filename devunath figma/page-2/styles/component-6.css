@@ -1,0 +1,77 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 18.494rem;
+}.component-6-1SF {
+  box-sizing: border-box;
+  padding: 2rem 2rem 2rem 2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: dashed 0.1rem #9747ff;
+  border-radius: 0.5rem;
+}
+.component-6-1SF .property-1default-LjR {
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 5.3484rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.component-6-1SF .property-1default-LjR .rectangle-123-HPm {
+  width: 14.4941rem;
+  height: 5.3484rem;
+  position: absolute;
+  left: -0.0161rem;
+  top: 0.0282rem;
+  background-color: #e53232;
+  border-radius: 2.6742rem;
+}
+.component-6-1SF .property-1default-LjR .view-DHR {
+  width: 5.7rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 4.397rem;
+  top: 1.4242rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.0559999943;
+  color: #ffffff;
+  font-family: Sora, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.component-6-1SF .property-1variant2-XJ7 {
+  width: 100%;
+  height: 5.3484rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.0559999943;
+  color: #ffffff;
+  font-family: Sora, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.2rem #ffffff;
+  box-sizing: border-box;
+  background-color: #e53232;
+  border-radius: 2.6742rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}

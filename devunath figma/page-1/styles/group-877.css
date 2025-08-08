@@ -1,0 +1,47 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 49.6rem;
+}.group-877-mR1 {
+  width: 100%;
+  height: 36.5383rem;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/mask-group-Smm.png');
+}
+.group-877-mR1 .rectangle-81-X9H {
+  width: 49.6rem;
+  height: 11.556rem;
+  position: absolute;
+  left: 0;
+  top: 24.9823rem;
+  background: linear-gradient(180deg, rgba(8, 8, 8, 0) -0%, #080808 100%);
+  border-radius: 0 0 1.8rem 1.8rem;
+}
+.group-877-mR1 .time-pickle-S1M {
+  width: 13.6rem;
+  height: 3.3rem;
+  position: absolute;
+  left: 3.3916rem;
+  top: 29.8698rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.365;
+  color: #ffffff;
+  font-family: Manrope, 'Source Sans Pro';
+  white-space: nowrap;
+}

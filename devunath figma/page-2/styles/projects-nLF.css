@@ -1,0 +1,42 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 42.6rem;
+}.projects-iCF {
+  width: 100%;
+  height: 13.4rem;
+  font-size: 10.6rem;
+  font-weight: 800;
+  line-height: 1.3660000495;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.projects-iCF .projects-iCF-sub-0 {
+  font-size: 10.6rem;
+  font-weight: 800;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Monument Extended, 'Source Sans Pro';
+}
+.projects-iCF .projects-iCF-sub-1 {
+  font-size: 10.6rem;
+  font-weight: 800;
+  line-height: 1.2575;
+  color: #fece00;
+  font-family: Monument Extended, 'Source Sans Pro';
+}
