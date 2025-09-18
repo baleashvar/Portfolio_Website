@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Sollarity - Solana Memecoin Analysis Platform</title>
+  <meta content="Comprehensive Solana memecoin analysis platform with real-time data aggregation and market insights" name="description">
+  <meta content="solana, memecoin, cryptocurrency, blockchain, analysis, trading, defi" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+    .tech-badge {
+      background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      margin: 0.2rem;
+      display: inline-block;
+    }
+    
+    .feature-card {
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      border-radius: 15px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .architecture-section {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 3rem 0;
+      margin: 2rem 0;
+      border-radius: 20px;
+    }
+    
+    .stats-card {
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      padding: 1.5rem;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    
+    .project-header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 4rem 0;
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    
+    .timeline-item {
+      border-left: 3px solid #667eea;
+      padding-left: 1.5rem;
+      margin-bottom: 2rem;
+      position: relative;
+    }
+    
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -8px;
+      top: 0;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background: #667eea;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top d-flex justify-content-center align-items-center">
+  <nav id="navbar" class="navbar">
+    <ul>
+      <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+      <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+      <li><a class="nav-link scrollto" href="index.html#resume">Resume</a></li>
+      <li><a class="nav-link scrollto" href="index.html#know-me">Know Me</a></li>
+      <li class="dropdown"><a href="projects.html"><span>Projects</span> <i class="bi bi-chevron-down"></i></a>
+        <ul>
+          <li><a href="SRGAN.html">SRGAN</a></li>
+          <li><a href="sd_sensor.html">Social Distancing Sensor</a></li>
+          <li><a href="sollarity.html">Sollarity</a></li>
+          <li><a href="https://projectyummy.netlify.app/">Yummy Restaurant</a></li>
+          <li><a href="projects.html">View All Projects</a></li>
+        </ul>
+      </li>
+      <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+    </ul>
+    <i class="bi bi-list mobile-nav-toggle"></i>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ======= Breadcrumbs ======= -->
+  <section class="breadcrumbs">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <h2>Sollarity</h2>
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li>Sollarity</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Project Header ======= -->
+  <section class="project-header">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Sollarity</h1>
+      <p class="lead">Solana Memecoin Analysis Platform</p>
+      <div class="mt-3">
+        <a href="https://sollarity.xyz" target="_blank" class="btn btn-light btn-lg me-3">
+          <i class="bi bi-globe me-2"></i>Visit Live Site
+        </a>
+        <a href="https://github.com/baleashvar" target="_blank" class="btn btn-outline-light btn-lg">
+          <i class="bi bi-github me-2"></i>View Code
+        </a>
+      </div>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-3">
+          <div class="stats-card">
+            <h3>1000+</h3>
+            <p>Memecoins Tracked</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stats-card">
+            <h3>Real-time</h3>
+            <p>Data Updates</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stats-card">
+            <h3>Multi-API</h3>
+            <p>Integration</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stats-card">
+            <h3>AWS</h3>
+            <p>Cloud Hosted</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Project Details ======= -->
+  <section class="container my-5">
+    
+    <!-- Project Overview -->
+    <div class="row mb-5">
+      <div class="col-lg-8">
+        <h2 class="mb-4">Project Overview</h2>
+        <p class="lead">A comprehensive web application that aggregates and analyzes data from the top 1000 Solana-based memecoins, providing real-time market insights and risk assessment tools for cryptocurrency investors.</p>
+        
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <h5><i class="bi bi-calendar-event text-primary me-2"></i>Timeline</h5>
+            <p>August 2025 - Present</p>
+          </div>
+          <div class="col-md-6">
+            <h5><i class="bi bi-person-fill text-primary me-2"></i>Role</h5>
+            <p>Full Stack Developer</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4">
+        <div class="feature-card">
+          <h5><i class="bi bi-gear-fill text-primary me-2"></i>Technologies Used</h5>
+          <div class="mt-3">
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">Express</span>
+            <span class="tech-badge">MongoDB</span>
+            <span class="tech-badge">AWS EC2</span>
+            <span class="tech-badge">Cloudflare</span>
+
+            <span class="tech-badge">RESTful APIs</span>
+            <span class="tech-badge">Tailwind CSS</span>
+            <span class="tech-badge">Chart.js</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Key Features -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <h2 class="mb-4">Key Features</h2>
+      </div>
+      
+      <div class="col-md-6 mb-3">
+        <div class="feature-card">
+          <h5><i class="bi bi-graph-up text-success me-2"></i>Real-time Data Aggregation</h5>
+          <p>Aggregates data from multiple sources including CoinGecko, DexScreener, Jupiter Aggregator, and Binance APIs with automated refresh every 30 minutes.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-6 mb-3">
+        <div class="feature-card">
+          <h5><i class="bi bi-bar-chart text-info me-2"></i>Interactive Analytics</h5>
+          <p>Live price tracking, volume analysis, market capitalization monitoring with interactive price charts and historical data visualization.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-6 mb-3">
+        <div class="feature-card">
+          <h5><i class="bi bi-shield-check text-warning me-2"></i>Risk Assessment</h5>
+          <p>Comprehensive risk assessment tools helping users make informed investment decisions through data-driven insights.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-6 mb-3">
+        <div class="feature-card">
+          <h5><i class="bi bi-lightning text-danger me-2"></i>Performance Optimized</h5>
+          <p>Optimized database queries, CDN integration, and intelligent caching for lightning-fast performance.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Technical Architecture -->
+    <div class="architecture-section">
+      <div class="container">
+        <h2 class="text-center mb-5">Technical Architecture</h2>
+        
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="timeline-item">
+              <h4><i class="bi bi-display me-2"></i>Frontend Layer</h4>
+              <ul class="list-unstyled mt-3">
+                <li>• React.js with modern hooks and state management</li>
+                <li>• Tailwind CSS for responsive design</li>
+                <li>• Chart.js for interactive visualizations</li>
+                <li>• Real-time data updates and filtering</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+            <div class="timeline-item">
+              <h4><i class="bi bi-server me-2"></i>Backend Layer</h4>
+              <ul class="list-unstyled mt-3">
+                <li>• Node.js with Express.js RESTful API</li>
+                <li>• MongoDB for scalable data storage</li>
+                <li>• Multi-API integration with fallback systems</li>
+                <li>• JWT authentication and CSRF protection</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+            <div class="timeline-item">
+              <h4><i class="bi bi-cloud me-2"></i>Infrastructure</h4>
+              <ul class="list-unstyled mt-3">
+                <li>• AWS EC2 instance for backend hosting</li>
+                <li>• Cloudflare CDN for global delivery</li>
+                <li>• SSL certificate management</li>
+                <li>• Automated backup with Google Drive</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Data Sources -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <h2 class="mb-4">Data Sources & Integration</h2>
+      </div>
+      
+      <div class="col-md-3 mb-3">
+        <div class="feature-card text-center">
+          <i class="bi bi-coin display-4 text-primary mb-3"></i>
+          <h5>CoinGecko API</h5>
+          <p>Market data and price information</p>
+        </div>
+      </div>
+      
+      <div class="col-md-3 mb-3">
+        <div class="feature-card text-center">
+          <i class="bi bi-graph-up-arrow display-4 text-success mb-3"></i>
+          <h5>DexScreener</h5>
+          <p>DEX trading data and analytics</p>
+        </div>
+      </div>
+      
+      <div class="col-md-3 mb-3">
+        <div class="feature-card text-center">
+          <i class="bi bi-arrow-left-right display-4 text-info mb-3"></i>
+          <h5>Jupiter Aggregator</h5>
+          <p>Solana swap and liquidity data</p>
+        </div>
+      </div>
+      
+      <div class="col-md-3 mb-3">
+        <div class="feature-card text-center">
+          <i class="bi bi-currency-exchange display-4 text-warning mb-3"></i>
+          <h5>Binance API</h5>
+          <p>Exchange rates and volume data</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Security & Performance -->
+    <div class="row mb-5">
+      <div class="col-md-6">
+        <h3><i class="bi bi-shield-lock text-primary me-2"></i>Security Features</h3>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">JWT authentication with secure token management</li>
+          <li class="list-group-item">CSRF protection for all API endpoints</li>
+          <li class="list-group-item">Rate limiting and API key management</li>
+          <li class="list-group-item">Session-based authentication with secure cookies</li>
+          <li class="list-group-item">CORS configuration for secure cross-origin requests</li>
+        </ul>
+      </div>
+      
+      <div class="col-md-6">
+        <h3><i class="bi bi-speedometer2 text-success me-2"></i>Performance Optimization</h3>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Optimized database queries with proper indexing</li>
+          <li class="list-group-item">Cloudflare CDN for global content delivery</li>
+          <li class="list-group-item">Intelligent caching mechanisms</li>
+          <li class="list-group-item">Automated data processing workers</li>
+          <li class="list-group-item">Nodemailer with Brevo SMTP integration</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Project Impact -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="feature-card">
+          <h3><i class="bi bi-bullseye text-primary me-2"></i>Project Impact</h3>
+          <p class="lead">This platform serves as a comprehensive tool for analyzing the volatile memecoin market on Solana, helping users make informed investment decisions through data-driven insights and risk assessment.</p>
+          
+          <div class="row mt-4">
+            <div class="col-md-4 text-center">
+              <h4 class="text-primary">Real-time Analysis</h4>
+              <p>Provides up-to-the-minute market data for informed decision making</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <h4 class="text-success">Risk Mitigation</h4>
+              <p>Advanced analytics help users identify potential risks and opportunities</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <h4 class="text-info">Market Insights</h4>
+              <p>Comprehensive data aggregation provides deep market understanding</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Technical Challenges -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <h3 class="mb-4">Technical Challenges & Solutions</h3>
+      </div>
+      
+      <div class="col-md-6 mb-3">
+        <div class="feature-card">
+          <h5 class="text-danger">Challenge: Multi-API Rate Limiting</h5>
+          <p><strong>Solution:</strong> Implemented intelligent fallback systems and request queuing to handle API rate limits across multiple data sources efficiently.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-6 mb-3">
+        <div class="feature-card">
+          <h5 class="text-danger">Challenge: Real-time Data Synchronization</h5>
+          <p><strong>Solution:</strong> Built automated workers with 30-minute refresh cycles and implemented WebSocket connections for live updates.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-6 mb-3">
+        <div class="feature-card">
+          <h5 class="text-danger">Challenge: Scalable Data Storage</h5>
+          <p><strong>Solution:</strong> Designed optimized MongoDB schemas with proper indexing and implemented data archiving strategies for historical data.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-6 mb-3">
+        <div class="feature-card">
+          <h5 class="text-danger">Challenge: Global Performance</h5>
+          <p><strong>Solution:</strong> Leveraged Cloudflare CDN, implemented caching layers, and optimized API responses for minimal latency worldwide.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Future Enhancements -->
+    <div class="row">
+      <div class="col-12">
+        <div class="feature-card">
+          <h3><i class="bi bi-rocket text-primary me-2"></i>Future Enhancements</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li>Machine learning-based price prediction models</li>
+                <li>Advanced portfolio tracking and management</li>
+                <li>Social sentiment analysis integration</li>
+                <li>Mobile application development</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li>Real-time alerts and notifications system</li>
+                <li>Advanced charting and technical analysis tools</li>
+                <li>Community features and social trading</li>
+                <li>Integration with additional blockchain networks</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+</main>
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="container">
+    <h3>Baleashvar Kasiviswanathan</h3>
+    <p>It is the people you never imagine anything of, do the things no one imagine</p>
+    <div class="social-links">
+      <a href="https://github.com/baleashvar" class="github"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/baleashvar/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://twitter.com/ubiquitouscheer" class="twitter"><i class="bi bi-twitter"></i></a>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
