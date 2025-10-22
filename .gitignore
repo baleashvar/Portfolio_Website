@@ -1,0 +1,38 @@
+Crypto_local_wallet/
+My Tableau Repository/
+complete-node-bootcamp/
+crypto-vault-private/
+my-recipe-app/
+myapp/
+portfolio/
+pygame/
+python_steam_market_history/
+react app/
+react_app1/
+sollarity/
+wings 1 kickoffs (Job board react application)/
+wings1 buy and sell product/
+wings1 kickoffs job board 2/
+express basics/.gitignore
+nodejs_practice/.gitignore
+freeCodeCamp/
+CS2 Skins marketplace/client/
+Crypto_local_wallet/
+# Ignore system files
+*.tmp
+*.log
+*.bak
+Thumbs.db
+desktop.ini
+
+# Ignore OneDrive-specific files
+.~lock.*
+*.lnk
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore other unnecessary files
+.DS_Store
