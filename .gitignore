@@ -17,7 +17,6 @@ express basics/.gitignore
 nodejs_practice/.gitignore
 freeCodeCamp/
 CS2 Skins marketplace/client/
-Crypto_local_wallet/
 # Ignore system files
 *.tmp
 *.log
