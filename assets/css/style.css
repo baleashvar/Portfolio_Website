@@ -42,8 +42,69 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+  color: #333;
 }
 
+p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* General container padding for responsiveness */
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Responsive typography */
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Responsive grid adjustments */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .col-lg-4, .col-lg-6, .col-lg-8 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #hero h1 {
+    font-size: 2rem;
+  }
+
+  #hero p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -384,7 +445,9 @@ h6 {
 }
 
 #hero .btn-scroll:hover {
-  color: #ffb727;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 @media (min-width: 1024px) {
@@ -1203,9 +1266,9 @@ section {
 }
 
 .contact .social-links a:hover {
-  color: #fff;
-  border-color: #ffb727;
-  background: #ffb727;
+  color: #007bff;
+  transform: scale(1.1);
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .contact .php-email-form {
@@ -1391,4 +1454,93 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+/* Highlight "Contact Me" and "AWS Certification" sections */
+
+/* Contact Me Section Styling */
+#contact {
+  background: linear-gradient(to right, #f7e600, #ffec99);
+  color: #333;
+  padding: 60px 0;
+}
+
+#contact .section-title span {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#contact h2 {
+  color: #333;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#contact .info-box {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact .info-box h3 {
+  color: #333;
+}
+
+#contact .info-box p {
+  color: #555;
+}
+
+#contact .social-links a {
+  color: #333;
+  font-size: 1.5rem;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+#contact .social-links a:hover {
+  color: #f7d700;
+}
+
+/* AWS Certification Section Styling */
+#aws-certification {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  padding: 60px 0;
+}
+
+#aws-certification h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+#aws-certification p {
+  font-size: 1.2rem;
+  color: #ddd;
+  margin: 15px 0;
+}
+
+#aws-certification a {
+  font-size: 1.2rem;
+  color: #ffeb3b;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+#aws-certification a:hover {
+  color: #fff;
+}
+
+/* Optimize and lazy load images */
+
+/* Add styles for lazy-loaded images */
+img[loading="lazy"] {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+img[loading="lazy"].loaded {
+  opacity: 1;
 }
