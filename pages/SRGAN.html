@@ -1,2 +1,441 @@
 <!DOCTYPE html>
-<!-- Content of SRGAN.html moved here -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>SRGAN</title>  
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex justify-content-center align-items-center ">
+
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a class="nav-link scrollto" href="../index.html#about">About</a></li>
+        <li><a class="nav-link scrollto" href="../index.html#resume">Resume</a></li>
+        <li><a class="nav-link scrollto" href="../index.html#portfolio">Know Me</a></li>
+        <li class="dropdown"><a href="projects.html"><span>Projects</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="SRGAN.html">SRGAN</a></li>
+            <li><a href="sd_sensor.html">Social Distancing Sensor</a></li>
+            <li><a href="sollarity.html">Sollarity</a></li>
+            <li><a href="https://projectyummy.netlify.app/">Yummy Restaurant</a></li>
+            <li><a href="projects.html">View All Projects</a></li>
+          </ul>
+        </li>
+        <li><a class="nav-link scrollto" href="../index.html#contact">Contact</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Super Resolution Generative Adverserial Networks</h2>
+          <ol>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="SRGAN.html">SRGAN</a></li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page">
+      <div class="container">
+        <p>
+          <h4>1 Introduction</h4>
+          <div>
+          Cosmic bodies Image Improvization using Super Resolution was my Final year Project.
+          This Deeplearning model can be used to improve resolution of far away celestial body images 
+          that have been captured by Telescopes and have blurred low resolution image. 
+          Super Resolution is the process of fusion for reconstructing a high resolution
+          image from several low resolution images. It extends classical single frame image
+          reconstruction/restoration methods by simultaneously using information from
+          multiple observed images to achieve resolutions higher than that of the original
+          data. These observations can be low resolution images captured simultaneously or
+          at different times by a single or multiple imaging devices. This methodology, also
+          known as multi frame super-resolution reconstruction, registers the observed
+          images to a common high resolution reference frame in order to formulate the
+          problem of fusion as one of constrained image reconstruction with missing data.<br><br></div>
+
+          <h5>There are three major steps involved in Super resolution namely:</h5>
+            <div><ul>
+          <li>LR image acquisition: Acquisition of a sequence of low resolution images
+          from the same scene with non-integer (in terms of inter-pixel distances)
+          geometric displacements between any two of the images.<br></li>
+          <li>Image registration/motion compensation: Estimation of the sub-pixel
+          geometric transformation of each source image with respect to the reference
+          HR desirable grid.<br></li>
+          <li>HR image reconstruction: Solution of the problem of reconstructing a high
+          resolution image from the available data supplied by the source images.</li><br>
+
+          The theoretical basis for super-resolution was laid by Papoulis , with
+          the Generalised Sampling Theorem. It was shown that a continuous band-limited
+          signal z(x) may be reconstructed from samples of convolutions of z(x) with
+          different filters, assuming these filters satisfy certain conditions.<br><br></ul></div>
+        </p>
+        <p>
+          <h4>2 Low Resolution Image</h4>
+          To define in simple terms, image resolution is a measure of the detail that an image
+          contains. In digital imaging, the resolution of an image commonly refers to the
+          number of pixels present on a unit area of the screen. It is described and measured
+          in PPI or pixels per inch, an indication of the number of pixels occupying per inch
+          of the screen.<br><br>
+          Figure 1
+          <img src="../assets/img/inner-page/srgan1.png" alt="" align="align-items-center">
+          <br>
+          This figure is an extremely low-resolution image (12 × 12), enlarged to show the
+          individual pixels. Also, to keep things simple, consider it to be a black-and-white
+          image, so that we only need a single bit of information to determine a pixel&#39;s color.
+          
+          In this case, 0 will be a black pixel, 1 will be white. Thus, a numerical
+          representation of this image would be as follows:<br><br>
+          000000000000<br>
+          000000000000<br>
+          000001100000<br>
+          000001100000<br>
+          000001100000<br>
+          001111111100<br>
+          001111111100<br>
+          000001100000<br>
+          000001100000<br>
+          000001100000<br>
+          000000000000<br>
+          000000000000<br><br>
+        </p>
+        <p>
+          <h4>3 SRGAN<br></h4><ul>
+          <h5><li> Image Super Resolution:<br></h5></li>
+          Image super resolution can be defined as increasing the size of small images while
+          keeping the drop in quality to minimum, or restoring high resolution images from
+          rich details obtained from low resolution images. This problem is quite complex
+          since there exist multiple solutions for a given low resolution image. This has
+          numerous applications like satellite and aerial image analysis, medical image
+          processing, compressed image/video enhancement etc.<br><br></ul>
+          Figure 2
+          <img src="../assets/img/inner-page/srgan2.png" alt=""><br><br>
+
+
+          <h4>4 Problem Statement:<br></h4>
+          To recover or restore high resolution image from low resolution image. There are
+          many forms of image enhancement which includes noise-reduction, up-scaling
+          image and color adjustments. This post will discuss enhancing low resolution
+          images by applying deep network with adversarial network (Generative Adversarial
+          Networks) to produce high resolutions images.
+          Our main target is to reconstruct super resolution image or high resolution image by
+          up-scaling low resolution image such that texture detail in the reconstructed SR
+          images is not lost.<br><br>
+
+        </p>
+        <p>
+          <h4>5 What factors causes low resolution images?</h4><br>
+          
+          Image quality can deeply affect the entire subjective appearance of a photo.
+          Therefore, it is necessary to improve your picture quality for it to be impactful.
+          There are various potential reasons which may cause low-resolution images. A few
+          of them are listed below.<br><ul><br>
+          <li> Image Enlargement<br></li>
+          A common cause for images to be of low quality is when it is enlarged without
+          proper tools. Increasing the size of the image can often result in the photo losing its
+          quality and resolution to drop significantly. It is therefore advised to resize your
+          image with the aid of an appropriate tool to not compromise on the quality of the
+          picture.<br><br>
+
+          <li> Unstable Camera Shots<br></li>
+          Shaky camera work is all that is needed for low-resolution photos. If the device is
+          unsteady, the images that come out are bound to be blurry, out of focus, and
+          pixelated. All of these can drastically reduce the overall quality or resolution of an
+          image.<br><br>
+
+          <li> Blurry Images<br></li>
+          In instances when the subject is not properly focused, images can come out to
+          be imminently blurry and low in quality. Unfocused and indistinctive photos come
+          off as a great turn-off to the viewer&#39;s eye.<br><br>
+
+
+          <li> Poor Camera Settings<br></li>
+          Lack of proper and advisable camera settings can greatly affect the quality of an
+          image produced. Details such as ISO, aperture, and exposure can play a key role in
+          making or breaking your image resolution.<br><br>
+
+          <li> File Damage<br></li>
+          Severe damage or corruption to the file can also result in the image appearing to be
+          pixelated or grainy. In often cases, file formats that are corrupted or otherwise highly
+          damaged seem to be significantly low in resolution.<br><br>
+
+          </p></ul>
+          <p>
+            <h4>6 Why Deep Learning?<br></h4><ul>
+              There are various ways of enhancing image quality. One of the most commonly
+              used technique is interpolation. This is easy to use but this leads to distorted image
+              or reduces the visual quality of image. Most common interpolation methods
+              produce blurry images, i.e. bi-cubic interpolation. More sophisticated methods
+              exploit internal similarities of a given image or, use data-sets of lowresolution
+              images and their highresolution counterparts to effectively learn a mapping between
+              them. Among ExampleBased SR algorithms, the SparseCodingBased method is one
+              of the most popular.<br>
+              Deep learning provides better solution to get optimized images. In recent years
+              many methods have been proposed for Image Super Resolution. Here we will be
+              discussing about SRGAN. Lets see other methods in deep learning:<br><br>
+              <li> SRCNN : SRCNN was the first deep learning method to outperform traditional
+              ones. It is a Convolutional Neural Network consisting of only 3 convolution
+              layers: patch extraction and representation, nonlinear mapping and
+              reconstruction.<br></li>
+              <li> VDSR : Very Deep Super Resolution employs the similar structure as SRCNN,
+              but goes deeper to achieve higher accuracy. Both SRCNN and VDSR apply bi-
+              cubic up-sampling at the input stage and deal with the feature maps at the same
+              scale as output.</li></ul><br>
+          </p>
+          <p>
+            <h4>7 About SRGAN-Super resolution Generative Adverserial Networks<br></h4><br>
+            GANs : GANs are class of AI algorithms used in Unsupervised Machine Learning.
+            GANs are deep neural network architectures comprised of two networks (Generator
+            and Discriminator) pitting one against the other (thus the “adversarial”). GANs is
+            about creating, like drawing a portrait or composing a symphony. The main focus
+            for GANs is to generate data from scratch.<br>
+            To understand GANs, first we need to understand what a generative model is. In
+            machine learning, the two main classes of models are generative and discriminative.
+            A discriminative model is one that discriminates between two (or more) different
+            classes of data — for example a convolutional neural network that is trained to
+            output 1 given an image of a car and 0 otherwise. A generative model on the other
+            hand doesn’t know anything about classes of data. Instead, its purpose is to generate
+            new data which fits the distribution of the training data.<br>
+            GANs consist of a Generator and Discriminator. Think it like a game where
+            Generator tries to produce some data from probability distribution and
+            Discriminator acts like a judge. Discriminator decides whether input is coming from
+            true training data set of fake generated data. Generator tries to optimize data so that
+            it can match true training data. Or we can say discriminator is guiding generator to
+            produce realistic data. They just work like encoder and decoder.<br>
+            Let make it easy by taking an example-Lets say we want to generate animated
+            characters face. So we will provide training data which consists of images of anime
+            character faces. And fake data consists of some random noise. Now Generator will
+            try to produce image from noise which will be judged by discriminator. Both will
+            keep training so that generator can generate images which can match true training
+            data. One interesting thing is, images generated by generator will have features
+            from original training data images but may or may not be the same. So like this we
+            can generate some anime faces with heterogeneous mix of features from training
+            data.<br>.<br>
+            Figure 3
+            <img src="../assets/img/inner-page/srgan3.png" alt=""><br>.<br>
+            Discriminator and Generator are both learning at the same time, and once Generator
+            is trained it knows enough about the distribution of the training samples so that it
+            can now generate new samples which share very similar properties.
+            Idea Behind SRGAN : We have seen various ways for Single image super
+            resolution. Those ways are fast and accurate as well. But still there is one problem
+            which is not solved. That is, how can we recover finer texture details from low
+            resolution image so that image is not distorted. Recent work has largely focused on
+            minimizing the mean squared reconstruction error. The results have high peak
+            signal-to-noise ratios(PSNR) means we have good image quality results, but they
+            are often lacking high-frequency details and are perceptually unsatisfying as they
+            are not able to match the fidelity expected in high resolution images. Previous ways
+            try to see similarity in pixel space which led to perceptually unsatisfying results or
+            they produce blurry images. So we need a stable model which can capture the
+            perceptual differences between the model’s output and the ground truth image.To
+            achieve this we will use Perceptual loss function which comprise of Content and
+            Adversarial loss. Other then that SRGAN uses residual blocks for deep neural
+            network.<br><br>
+            Figure 4<img src="../assets/img/inner-page/srgan4.png" alt=""><br>.<br>
+          </p>
+          <p>
+            <h4>8 Softwares Used</h4>
+            <ul>
+              <li>Anaconda Navigator 2</li>
+              <li>Python 3.7</li>
+              <li>Jupyter Notebook</li>
+              <li>Keras</li>
+              <li>Tensorflow</li>
+            </ul>
+          </p>
+          <p><br>
+      
+              <h4>9 Preparing the Dataset</h4>
+              Obtaining Dataset for training the proposed model was a pretty easy job since the
+              images were randomly downloaded various random images from random portals.
+              number of images in my dataset is 100 images which will be resized into two
+              various resolutions namely high resolution 384x384 images and low resolution
+              92x92 images. And training is done on 300 epochs. The Proposed model is capable
+              of improving resolution of any images since its trained using random images.<br><br>
+
+            
+              <h4>10 Proposed System</h4>
+              The GAN that I used contains residual networks(ResNet) instead of deep
+              convolution networks because training is made easier since residual networks used
+              a type of connection called skip connections. People at Microsoft were able to
+              come up with a type of neural network called residual network. Residual network
+
+              or ResNet uses a type of connection called skip connection. Whenever a layer
+              affects the performance of the architecture that particular lyer will be skipped but
+              this does not affect the overall performance of the architecture but reduces
+              resources and training time.<br><br>
+           
+              <h4>11 Advantages:</h4><ul>
+              <li> It is also used to overcome Vanishing/Exploding gradient found in CNN.</li>
+              <li> It uses less resources</li>
+              <li> It also takes less time to train without affecting Performance of the NN</li>
+              </ul>
+              <br><br>
+              <h4>Output</h4>
+            Figure 5<img src="../assets/img/inner-page/srgan5.png" alt=""><br>.<br>            
+          </p>
+          <p></p>
+          <br>
+          <h4>Conclusion</h4>
+
+            We are able to obtain Super resolution images from trained generator and
+            discriminator networks since we have used 100 images and trained using 300
+            iterations(epochs) we are able to obtain super resolution image that looks better
+            than the low resolution image. Hence we can use this neural network model to
+            obtain super resolution images of macroscopic applications like cosmic bodies for
+            example sun, stars, galaxies etc.<br><br><br>
+          <h3>Code for this project can be found at my <a href="https://github.com/baleashvar/SRGAN" class="github"><i class="bi bi-github"></i></a></h3>
+          <br><br><br>
+          <p>
+          <h4>Easy to understand PPT below</h4>
+          swipe right to turn page<br></p> 
+          <div class="portfolio-details-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page1.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page2.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page3.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page4.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page5.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page6.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page7.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page8.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page9.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page10.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page11.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page12.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page13.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page14.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page15.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page16.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page17.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/img/inner-page/ppt images for SRGAN/page18.png" alt="">
+              </div>
+
+            </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Baleashvar Kasiviswanathan</h3>
+      <p>It is the people you never imagine anything of, do the things no one imagine</p>
+      <div class="social-links">
+        <a href="https://github.com/baleashvar" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/baleashvar/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://twitter.com/ubiquitouscheer" class="twitter"><i class="bi bi-twitter"></i></a>
+      </div>
+      
+      
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
