@@ -1460,7 +1460,7 @@ section {
 
 /* Contact Me Section Styling */
 #contact {
-  background: linear-gradient(to right, #f7e600, #ffec99);
+  background: orange;
   color: #333;
   padding: 60px 0;
 }
