@@ -39,6 +39,16 @@
         visibility: visible !important;
       }
 
+      /* Fix spacing for Know Me section */
+      .know-me-item {
+        margin-bottom: 30px;
+        padding: 20px;
+      }
+
+      .know-me-item img {
+        margin-bottom: 20px;
+      }
+
       /* Critical CSS for Header */
       #header {
         z-index: 997;
@@ -76,6 +86,9 @@
 
   <!-- Cache Control: Set max-age for caching (adjust the value as needed) -->
   <meta http-equiv="Cache-Control" content="max-age=3600, must-revalidate">
+
+  <!-- Content Security Policy -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com https://fonts.googleapis.com; img-src 'self' data:; frame-src 'self' https://forms.office.com;">
 
 </head>
 
